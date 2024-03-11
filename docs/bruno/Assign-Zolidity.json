@@ -1,0 +1,37 @@
+{
+  "name": "Assign Zolidity",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "Assign a new value to A",
+      "seq": 1,
+      "request": {
+        "url": "http://localhost:3000",
+        "method": "POST",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    }
+  ],
+  "environments": []
+}
